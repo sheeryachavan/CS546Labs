@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shreesh Chavan 10440695",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.1.6",
+    "uuid": "^3.3.2"
+  }
+}

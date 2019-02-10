@@ -1,0 +1,22 @@
+<div class="log-form">
+    <h2>Login to your account</h2>
+    <form id="login-form" method="POST" action="/login" class="container">
+        <div><label for="username">Username</label>
+            <input type="text" name="username" placeholder="username" id="username" />
+        </div>
+        <div> <label for="passwd">Password</label>
+            <input type="password" name="password" placeholder="password" id="passwd" />
+        </div>
+
+
+        <button type="submit" class="button">Login</button>
+        {{# if iserror}}
+        <div class="form-group" id="error-container">
+            <div class="errorText">
+                <p>{{err}}</p>
+            </div>
+        </div>
+        {{else}}
+        {{/if}}
+    </form>
+</div>

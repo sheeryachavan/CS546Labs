@@ -1,0 +1,129 @@
+body {
+    background: #fefefe;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 15pt;
+  }
+  
+  main {
+    max-width: 75%;
+    margin: auto;
+  }
+  
+  header {
+    border-bottom: 1px solid #afafaf;
+  }
+  
+  
+  h1 {
+    font-size: 2rem;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 20px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 0px;
+  
+  
+  }
+  
+  .formdiv {
+  
+    padding-bottom: 30px;
+  }
+  
+  .container {
+    margin-top: 20px;
+    background: #e5fff6;
+    border-radius: 20px;
+    padding-left: 30px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+    margin: 0px;
+    display: inline;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  h4 {
+    font-size: 1.25rem;
+  }
+  
+  h5 {
+    font-size: 1.15rem;
+  }
+  
+  h6 {
+    font-size: 1.05rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 2;
+    /* display: inline-block; */
+  }
+  
+  
+  
+  ol li {
+  
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  
+  .formfield {
+    /* margin-top: 80px; */
+    vertical-align: middle;
+    padding-top: 80px;
+  
+  }
+  
+  .formfield * {
+    vertical-align: middle;
+  
+  }
+  
+  .form-group {
+    background-color: #ffd7d7;
+    color: #ff0000;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .clsFooter {
+    background-color: rgb(236, 255, 237);
+    border-radius: 20px;
+    padding: 8px 20px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .clsrescont {
+    visibility: hidden;
+  }
+  .errorText{
+    font-family: 'Courier New', Courier, monospace;
+  }
